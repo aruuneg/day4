@@ -22,7 +22,7 @@ public class StockMove {
     public String toString() {
         return "[" + id + "] " + moveType.toUpperCase() + " - " + product.getName() + 
                ", Тоо: " + quantity + ", Цаг: " + timestamp +
-               ", FROM: " + (fromLocation != null ? fromLocation.getName() : "N/A") +
+               ", FROM: " + (fromLocation != null ? fromLocation.getName() : "Үйлдвэрээс") +
                ", TO: " + (toLocation != null ? toLocation.getName() : "N/A");
     }
 }
